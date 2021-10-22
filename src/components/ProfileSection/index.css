@@ -1,0 +1,122 @@
+.search-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+@media screen and(min-width:768px) {
+  .search-profile-container {
+    max-width: 450px;
+  }
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #64748b;
+  border-radius: 4px;
+  padding-left: 8px;
+  width: 280px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-container {
+    display: none;
+  }
+}
+
+.search-input {
+  background-color: #000000;
+  color: #7e858e;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  flex-grow: 1;
+}
+
+.search-icon-container {
+  background-color: #272727;
+  padding: 10px;
+}
+
+.search-icon {
+  color: #f8fafc;
+  height: 20px;
+  width: 20px;
+}
+
+.profile-card-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-card-container {
+    width: 250px;
+  }
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.profile-image {
+  height: 40px;
+  width: 40px;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #6366f1;
+}
+
+.short-bio {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #2c364c;
+  text-align: left;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 200px;
+}
+
+.retry-button {
+  background-color: #4f46e5;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #f8fafc;
+  height: 25px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.profile-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
